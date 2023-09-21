@@ -3,7 +3,7 @@ const faker = require('faker')
 const path = require('path')
 
 const app = express()
-const port = 3000
+const port = 3000 || process.env.PORT
 
 app.get('/generate', (req, res) => {
     const randomName = faker.name.findName();
