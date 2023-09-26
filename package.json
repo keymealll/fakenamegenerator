@@ -1,7 +1,6 @@
 {
   "name": "fakename",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
@@ -11,7 +10,18 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "aos": "^2.3.4",
     "express": "^4.18.2",
     "faker": "^5.5.3"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keymealll/fakenamegenerator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/keymealll/fakenamegenerator/issues"
+  },
+  "homepage": "https://github.com/keymealll/fakenamegenerator#readme",
+  "description": ""
 }
